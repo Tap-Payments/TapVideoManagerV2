@@ -6,7 +6,7 @@ Pod::Spec.new do |tapVideoManager|
     tapVideoManager.name = 'TapVideoManagerV2'
     tapVideoManager.summary = 'Video Manager Interface + Video Player Controller'
     tapVideoManager.requires_arc = true
-    tapVideoManager.version = '1.0.3'
+    tapVideoManager.version = '1.0.1'
     tapVideoManager.license = { :type => 'MIT', :file => 'LICENSE' }
     tapVideoManager.author = { 'Osama Rabie' => 'o.rabie@tap.company' }
     tapVideoManager.homepage = 'https://github.com/Tap-Payments/TapVideoManagerV2'
@@ -14,7 +14,7 @@ Pod::Spec.new do |tapVideoManager|
     tapVideoManager.source_files = 'TapVideoManager/Source/*.swift'
     tapVideoManager.ios.resource_bundle = { 'TapVideoManagerResources' => 'TapVideoManager/Resources/*.{storyboard,xcassets}' }
     
-    tapVideoManager.dependency 'TapAdditionsKiV2'
+    tapVideoManager.dependency 'TapAdditionsKitV2'
     tapVideoManager.dependency 'TapApplicationV2'
     tapVideoManager.dependency 'TapGLKitV2'
     tapVideoManager.dependency 'TapViewControllerV2'
