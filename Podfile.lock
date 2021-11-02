@@ -1,0 +1,82 @@
+PODS:
+  - TapAdditionsKitV2 (0.0.8):
+    - TapSwiftFixesV2
+  - TapApplicationV2 (0.0.2):
+    - TapAdditionsKitV2
+  - TapDatabaseV2 (1.0.0):
+    - TapAdditionsKitV2
+  - TapFontsKitV2 (0.0.3):
+    - TapAdditionsKitV2
+  - TapGLKitV2 (0.0.2):
+    - TapAdditionsKitV2
+  - TapLocalizationV2 (1.0.2):
+    - TapLocalizationV2/Core (= 1.0.2)
+  - TapLocalizationV2/Core (1.0.2):
+    - TapAdditionsKitV2
+    - TapDatabaseV2
+    - TapLoggerV2
+    - TapSwiftFixesV2
+  - TapLoggerV2 (1.0.1):
+    - TapAdditionsKitV2
+  - TapNibViewV2 (0.0.2):
+    - TapAdditionsKitV2
+  - TapSearchViewV2 (0.0.4):
+    - TapAdditionsKitV2
+    - TapNibViewV2
+  - TapSwiftFixesV2 (1.0.0):
+    - TapSwiftFixesV2/CoreGraphics (= 1.0.0)
+    - TapSwiftFixesV2/Exceptions (= 1.0.0)
+    - TapSwiftFixesV2/Threading (= 1.0.0)
+  - TapSwiftFixesV2/CoreGraphics (1.0.0)
+  - TapSwiftFixesV2/Exceptions (1.0.0)
+  - TapSwiftFixesV2/Threading (1.0.0)
+  - TapViewControllerV2 (1.0.2):
+    - TapAdditionsKitV2
+    - TapApplicationV2
+    - TapFontsKitV2
+    - TapLocalizationV2
+    - TapLoggerV2
+    - TapSearchViewV2
+    - TapVisualEffectViewV2
+  - TapVisualEffectViewV2 (0.0.2):
+    - TapAdditionsKitV2
+    - TapNibViewV2
+
+DEPENDENCIES:
+  - TapAdditionsKitV2
+  - TapApplicationV2
+  - TapGLKitV2
+  - TapViewControllerV2
+
+SPEC REPOS:
+  trunk:
+    - TapAdditionsKitV2
+    - TapApplicationV2
+    - TapDatabaseV2
+    - TapFontsKitV2
+    - TapGLKitV2
+    - TapLocalizationV2
+    - TapLoggerV2
+    - TapNibViewV2
+    - TapSearchViewV2
+    - TapSwiftFixesV2
+    - TapViewControllerV2
+    - TapVisualEffectViewV2
+
+SPEC CHECKSUMS:
+  TapAdditionsKitV2: ba369802e9575c3475ce6d5af228cf60c68edfc9
+  TapApplicationV2: aee3d046c4272778431e1535de6cab34e1269f8c
+  TapDatabaseV2: 81600804e6026009a55dbd967e02828c3353d80f
+  TapFontsKitV2: f2a5b342c18784dd2068c1885313057780c49a3d
+  TapGLKitV2: d3ef8bc5d1655a1d46e1696cfdcf19ae6e6d4d35
+  TapLocalizationV2: 3fccc23eb14e6f6bc9c96a1e072ffcbb5162f485
+  TapLoggerV2: ef63571a8b96640c7bb171724ff61aef3aa21e71
+  TapNibViewV2: 814b18346837d9dab611a211a702b9b0b8369d07
+  TapSearchViewV2: a167173db767a2be86d66c319cbb6b8da1541531
+  TapSwiftFixesV2: a8623a7273c6790b9754ec7e272e96fce7d3a800
+  TapViewControllerV2: 1cfd0fb53d4a020175ca3be8b028da21c10ced26
+  TapVisualEffectViewV2: b612ffee4d05004c449d433fe45aba9563c8a508
+
+PODFILE CHECKSUM: ffe889a0514fb867b63c2925b6adbbe7cbf83281
+
+COCOAPODS: 1.10.1

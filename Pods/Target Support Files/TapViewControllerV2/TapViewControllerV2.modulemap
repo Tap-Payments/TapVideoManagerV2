@@ -1,0 +1,6 @@
+framework module TapViewControllerV2 {
+  umbrella header "TapViewControllerV2-umbrella.h"
+
+  export *
+  module * { export * }
+}

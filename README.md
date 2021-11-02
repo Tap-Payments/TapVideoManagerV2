@@ -1,1 +1,2 @@
-# TapVideoManagerV2
+# TapVideoManager
+Tap Video Manager
